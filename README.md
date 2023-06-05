@@ -42,6 +42,10 @@ The server will start running on `http://localhost:3000`.
    - `item_image`: String
    - `item_price`: Number
 
+![image](https://github.com/surazkarn/product_list-detail_API/assets/90691739/88317c94-e9da-4c09-a461-b83b55ef7179)
+
+
+
 2. Product Detail
    Returns the details of a specific product.
 
@@ -60,6 +64,10 @@ The server will start running on `http://localhost:3000`.
    - item_weight: Number
    - item_tax: Number
    - item_availability: Boolean
+
+![image](https://github.com/surazkarn/product_list-detail_API/assets/90691739/bf6d351a-6586-4a58-82fb-29801c055060)
+
+
 
 ## License
 
