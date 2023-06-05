@@ -18,8 +18,12 @@ This is an Express.js API that provides endpoints to retrieve product informatio
 
    ```bash
    npm install
+3. Folder Structure:
+    - <img width="251" alt="image" src="https://github.com/surazkarn/product_list-detail_API/assets/90691739/3172cc82-85b6-4b8d-a007-f72a43a5c32f">
 
-3. Start the server:
+
+
+4. Start the server:
 
    ```bash
    npm start
