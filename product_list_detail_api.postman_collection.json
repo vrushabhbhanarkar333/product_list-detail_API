@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "7e4baac0-ae0a-4957-9852-c186990ef60d",
+		"name": "product_list_detail_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25076866",
+		"_collection_link": "https://www.postman.com/grey-flare-599656/workspace/suraz/collection/25076866-7e4baac0-ae0a-4957-9852-c186990ef60d?action=share&creator=25076866&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/api/products/list/?size=10&page=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/api/products/list/?size=10&page=1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"list",
+						""
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": 
+			[
+				{
+					"id":10,
+					"item_name":"Cheese - Cheddar, Medium",
+					"item_image":"https://example.com/image2.jpg",
+					"import_date":"3/3/2021",
+					"expiration_date":"7/21/2022",
+					"item_price":34.58,
+					"item_quantity":8,
+					"item_weight":4.01,
+					"item_tax":4.86,
+					"item_availability":false
+				}
+			]
+		},
+		{
+			"name": "localhost:3000/api/products/id:",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost:3000/api/products/10"
+			},
+			"response": 
+			[
+				{
+					"id":1,"item_name":"Goldschalger","item_image":"https://example.com/image1.jpg","item_price":13.69},{"id":2,"item_name":"Cup - 6oz, Foam","item_image":"https://example.com/image1.jpg","item_price":4.54},{"id":3,"item_name":"Brownies - Two Bite, Chocolate","item_image":"https://example.com/image1.jpg","item_price":41.99},{"id":4,"item_name":"Sprouts - Peppercress","item_image":"https://example.com/image2.jpg","item_price":81.19},{"id":5,"item_name":"Oil - Cooking Spray","item_image":"https://example.com/image2.jpg","item_price":69.51},{"id":6,"item_name":"Lid Tray - 12in Dome","item_image":"https://example.com/image3.jpg","item_price":23.99},{"id":7,"item_name":"Coffee - Egg Nog Capuccino","item_image":"https://example.com/image2.jpg","item_price":36.6},{"id":8,"item_name":"Bagel - Sesame Seed Presliced","item_image":"https://example.com/image3.jpg","item_price":16.75},{"id":9,"item_name":"Chickensplit Half","item_image":"https://example.com/image3.jpg","item_price":88.78},{"id":10,"item_name":"Cheese - Cheddar, Medium","item_image":"https://example.com/image2.jpg","item_price":34.58
+				}
+			]
+		}
+	]
+}
