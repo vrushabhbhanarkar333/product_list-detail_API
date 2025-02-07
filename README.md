@@ -14,7 +14,7 @@ This is an Express.js API that provides endpoints to retrieve product informatio
    ```bash
    git clone <repository-url>
 
-2. Install dependencies:
+2
 
    ```bash
    npm install
